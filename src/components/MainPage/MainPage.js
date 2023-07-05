@@ -51,7 +51,7 @@ const MainPage = (props) => {
                     <main>
                         <div className={style.box__list}>
                             {product.map((it, i) => {
-                                // console.log(it.id)
+                                
                                 return <div key={i} className={style.box__card}>
                                     <div className="">
 
